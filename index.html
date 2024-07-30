@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="converter">
+            <div class="amount">
+                <label for="amount">Amount:</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+            <div class="from">
+                <label for="fromCurrency">From:</label>
+                <select id="fromCurrency">
+                  </select>
+            </div>
+            <div class="to">
+                <label for="toCurrency">To:</label>
+                <select id="toCurrency">
+                </select>
+            </div>
+            <button id="convertButton">Convert</button>
+            <div class="result">
+                <h2>Converted Amount:</h2>
+                <p id="result">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
